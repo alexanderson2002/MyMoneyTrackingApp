@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Author: Alex Anderson -->
+    <!-- Date: 05/18/2022 -->
+    <!-- Description: I made this site to easily track my money from my iphone -->
+    <meta charset="utf-8">
+    <title>My Money Tracking App</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <form>
+    <!-- PIN -->
+    <div id="start">Pin: <input id="pin" type="password"><button id="submit" type="button">></button></div>
+
+    <!-- CONTENT -->
+    <div id="content">
+        <div>Want Funds</div>
+        <div>Need Funds</div>
+        <div>Savings</div>
+        <div id="wants" class="currency">$</div>
+        <div id="needs" class="currency">$</div>
+        <div id="savings" class="currency">$</div>
+    </div>
+
+    <!-- BUTTONS -->
+    <div id="buttons">
+        <div><button id="wantsSub"  class="sub" type="button">-</button><input id="wantsInput" type="number"><button id="wantsAdd" class="add" type="button">+</button></div>
+        <div><button id="needsSub" class="sub" type="button">-</button><input id="needsInput" type="number"><button id="needsAdd" class="add" type="button">+</button></div>
+        <div><button id="savingsSub" class="sub" type="button">-</button><input id="savingsInput" type="number"><button id="savingsAdd" class="add" type="button">+</button></div>
+    </div>
+
+    <!-- HOURS WORKED -->
+    <div id="hoursWorked">
+        <h2 id="name"></h2>
+        Hours Worked Today<br>
+        <button id="hoursSub" class="sub" type="button">-</button><input id="hours" type="number"><button id="hoursAdd" class="add" type="button">+</button>
+        <br><h6 id="payrate"></h6><button id="save" type="button">Save</button>
+    </div>
+    </form>
+    <script type="module" src="js/main.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 /* FIREBASE IMPORT */
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
-import {getDatabase, ref, get, set, child} from "http://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
+import {getDatabase, ref, get, set, child} from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
 const firebaseConfig = { //Burner Firebase account,
     apiKey: "AIzaSyBidm7cgI3FPvx_1Ij-NAgBAqnFRiyDfWo",
     authDomain: "my-money-tracking-app-eddf9.firebaseapp.com",

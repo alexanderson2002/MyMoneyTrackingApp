@@ -48,7 +48,7 @@ div {
 #buttons {
   border-top: 2px rgb(255, 132, 0) solid;
   grid-template-columns: 33% 33% 33%;
-  height: 100px;
+  height: 44vh;
   overflow: auto;
 }
 
@@ -59,5 +59,4 @@ div {
 /* HOURS WORKED */
 #hoursWorked {
   font-size: 20px;
-  height: 10px;
 }

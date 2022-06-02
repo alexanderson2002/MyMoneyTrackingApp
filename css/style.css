@@ -48,7 +48,7 @@ div {
 #buttons {
   border-top: 2px rgb(255, 132, 0) solid;
   grid-template-columns: 33% 33% 33%;
-  height: 30vh;
+  height: 20vh;
   overflow: auto;
 }
 
